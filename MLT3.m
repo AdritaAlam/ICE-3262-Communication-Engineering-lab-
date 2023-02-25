@@ -1,3 +1,11 @@
+% A N D A 
+
+%----   Korlamna ! kar ki?   -----
+
+
+
+
+
 function [t,x] = MLT3(bits,bitrate)
 
 T = length(bits)/bitrate; % full time of bit sequence

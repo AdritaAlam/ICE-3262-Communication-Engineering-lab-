@@ -11,10 +11,10 @@ lastbit = 1;
 
 for i=0:length(bits)-1
     if bits(i+1) == 1
-        x(i*n+1:(i+1)*n) = -lastbit;
+        x(i*n+1:(i+1)*n+1) = -lastbit;
         lastbit = -lastbit;
     else
-        x(i*n+1:(i+1)*n) = lastbit;
+        x(i*n+1:(i+1)*n+1) = lastbit;
     end
 end
 
